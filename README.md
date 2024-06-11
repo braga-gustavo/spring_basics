@@ -1,5 +1,5 @@
 # Spring Framework Review 📚
-This repository contains review codes about both basic and more advancded Spring. It is intended to help those who are learning Spring Frea and wish to review the basic concepts with some examples
+This repository contains review codes about both basic and more advancded Spring. It is intended to help those who are learning Spring Fremework and wish to review the basic concepts with some examples
 
 ## Content 📖
 The repository includes reviews on the following topics:
