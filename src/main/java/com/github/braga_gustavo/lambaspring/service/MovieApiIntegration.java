@@ -7,7 +7,6 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class MovieApiIntegration {
-    //TODO: terminar impelmentação
     public String getData(String address) {
 
         HttpClient client = HttpClient.newHttpClient();
