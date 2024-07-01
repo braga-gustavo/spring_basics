@@ -41,8 +41,18 @@ public class main {
         }
 
         seasons.forEach(System.out::println);
-    }
 
+        // Printing each episode in the season using lambda:
+        seasons.forEach(s -> s.episodes().forEach(e -> System.out.println(e.title())));
+
+        // Printing each episode in the season using lambda:
+//        for (int i = 0; i <= seriesData.numberOfSeasons(); i++) {
+//            List<EpisodeData> seasonEpisodes = seasons.get(i).episodes();
+//            for(int j = 0; j < seasonEpisodes.size(); j ++){
+//                System.out.println(seasonEpisodes.get(j).title());
+//            }
+//        }
+    }
 
 
 }
